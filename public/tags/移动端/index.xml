@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>移动端 on 阿乖的技术笔记</title>
     <link>https://sherererlock.github.io/tags/%E7%A7%BB%E5%8A%A8%E7%AB%AF/</link>
