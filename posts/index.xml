@@ -9,6 +9,13 @@
     <lastBuildDate>Wed, 25 Mar 2026 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://sherererlock.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>SLG 手游的大地图制作与性能优化实战</title>
+      <link>https://sherererlock.github.io/posts/slg-game-dev-and-optimization/</link>
+      <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
+      <guid>https://sherererlock.github.io/posts/slg-game-dev-and-optimization/</guid>
+      <description>从大地图制作、地形处理、地表渲染到多光源与粒子系统优化，全面分享 SLG 手游开发中的技术挑战与解决方案。</description>
+    </item>
+    <item>
       <title>你好，世界！我的博客开张了 🎉</title>
       <link>https://sherererlock.github.io/posts/hello-world/</link>
       <pubDate>Wed, 25 Mar 2026 00:00:00 +0000</pubDate>
