@@ -1,0 +1,59 @@
+baseURL = "https://sherererlock.github.io/"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh-cn"
+title = "阿乖的技术笔记"
+theme = "PaperMod"
+
+[params]
+  env = "production"
+  description = "技术探索 · AI · 开发笔记"
+  author = "shlock"
+  
+  [params.homeInfoParams]
+    Title = "👋 你好，欢迎来到我的博客"
+    Content = "分享技术探索、AI 工具、开发经验"
+
+  [params.icons]
+    Email = "mailto:shlock@example.com"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/shlock"
+
+[params.fuseOpts]
+  isCaseSensitive = false
+  shouldSort = true
+  location = 0
+  distance = 1000
+  threshold = 0.4
+  minMatchCharLength = 0
+  keys = ["title", "permalink", "summary", "content"]
+
+[menu]
+  [[menu.main]]
+    identifier = "tags"
+    name = "🏷️ 标签"
+    url = "/tags/"
+    weight = 5
+
+  [[menu.main]]
+    identifier = "categories"
+    name = "📂 分类"
+    url = "/categories/"
+    weight = 10
+
+  [[menu.main]]
+    identifier = "archives"
+    name = "📚 归档"
+    url = "/archives/"
+    weight = 20
+
+[markup]
+  [markup.highlight]
+    codeFences = true
+    guessSyntax = true
+    lineNos = true
+    style = "monokai"
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
